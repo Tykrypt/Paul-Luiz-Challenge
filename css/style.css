@@ -10,6 +10,12 @@ footer{
     position: fixed;
     top:0px;
     left:0px;
+    text-align: right;
+}
+
+#navbar li{
+    display: inline-block;
+    list-style: none;
 }
 
 #projects{
@@ -26,6 +32,7 @@ footer{
 @media (max-width: 1500px){
     #projects{
         background-color: aqua;
+        width: 80%;
     }
 }
 
